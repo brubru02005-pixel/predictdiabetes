@@ -1,0 +1,107 @@
+{
+  "PIMA": {
+    "individual_models": {
+      "Enhanced_Model_1": {
+        "accuracy": 0.8235294117647058,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.8235294117647058
+      },
+      "Enhanced_Model_2": {
+        "accuracy": 0.8235294117647058,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.8235294117647058
+      },
+      "Enhanced_Model_3": {
+        "accuracy": 0.8235294117647058,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.8235294117647058
+      }
+    },
+    "ensemble_results": {
+      "soft_voting": {
+        "accuracy": 0.8235294117647058,
+        "roc_auc": 0.8703703703703703
+      },
+      "stacked_generalization": {
+        "accuracy": 0.8235294117647058,
+        "roc_auc": 0.8703703703703703
+      },
+      "dynamic_selection": {
+        "accuracy": 0.8235294117647058,
+        "roc_auc": 0.8703703703703703
+      }
+    },
+    "best_accuracy": 0.8235294117647058,
+    "best_strategy": "soft_voting"
+  },
+  "FRANKFURT": {
+    "individual_models": {
+      "Enhanced_Model_1": {
+        "accuracy": 0.8875,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.8875
+      },
+      "Enhanced_Model_2": {
+        "accuracy": 0.8875,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.8875
+      },
+      "Enhanced_Model_3": {
+        "accuracy": 0.8875,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.8875
+      }
+    },
+    "ensemble_results": {
+      "soft_voting": {
+        "accuracy": 0.8875,
+        "roc_auc": 0.9388358536791416
+      },
+      "stacked_generalization": {
+        "accuracy": 0.8875,
+        "roc_auc": 0.9388358536791416
+      },
+      "dynamic_selection": {
+        "accuracy": 0.8875,
+        "roc_auc": 0.9388358536791416
+      }
+    },
+    "best_accuracy": 0.8875,
+    "best_strategy": "soft_voting"
+  },
+  "IRAQI": {
+    "individual_models": {
+      "Enhanced_Model_1": {
+        "accuracy": 0.965,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.965
+      },
+      "Enhanced_Model_2": {
+        "accuracy": 0.965,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.965
+      },
+      "Enhanced_Model_3": {
+        "accuracy": 0.965,
+        "roc_auc": 0.0,
+        "best_val_acc": 0.965
+      }
+    },
+    "ensemble_results": {
+      "soft_voting": {
+        "accuracy": 0.96,
+        "roc_auc": 0.9946357989836251
+      },
+      "stacked_generalization": {
+        "accuracy": 0.96,
+        "roc_auc": 0.9946357989836251
+      },
+      "dynamic_selection": {
+        "accuracy": 0.96,
+        "roc_auc": 0.9946357989836251
+      }
+    },
+    "best_accuracy": 0.96,
+    "best_strategy": "soft_voting"
+  }
+}
